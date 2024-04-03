@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 })
 
 // MONGODB connection 
-mongoose.connect(process.env.DBURL)
+mongoose.connect("mongodb+srv://mernsoftwares:yyFU724pPeLFKLzp@cluster0.nzv4zpa.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("DB connection successfully");
 })
